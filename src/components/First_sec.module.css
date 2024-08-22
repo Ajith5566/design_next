@@ -1,0 +1,404 @@
+#first_sec {
+    height: 227px;
+    width: 1312px;
+    margin: 0px 64px 0px 64px;
+    overflow: hidden;
+}
+
+#f_sec_firstdiv {
+    height: 57px;
+    width: 100%;
+    display: flex;
+    margin-left: 81px;
+    margin-top: 18px;
+}
+
+#firstdiv_p1 {
+    height: 57px;
+    width: 123px;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 56.74px;
+    text-decoration: underline;
+    color: white;
+}
+
+#firstdiv_p2 {
+    height: 57px;
+    width: 125px;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: .7;
+    line-height: 56.74px;
+    margin-left: 52px;
+
+}
+
+.dropdown {
+    height: 29px;
+    width: 169px;
+    margin-top: 14px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    height: 29px;
+    width: 169px;
+    background-color: rgba(128, 128, 128, 0.5);
+    ;
+    border-radius: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+/* second section */
+#f_sec_firstdiv1 {
+    height: 42px;
+    width: 100%;
+    margin-left: 81px;
+    margin-top: 15px;
+    display: flex;
+}
+
+/* location picker */
+#location {
+    width: 188px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+}
+
+#cars {
+    width: 188px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* date and time */
+.date {
+    height: 42px;
+    width: 188px;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin-left: 16px;
+}
+
+#f_sec_button {
+    height: 42px;
+    width: 232px;
+    border: 1px solid white;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-left: 32px;
+    background-color: transparent;
+    color: white;
+}
+
+#f_sec_firstdiv2 {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    margin-left: 81px;
+    margin-top: 33px;
+}
+
+#f_sec_firstdiv2 p {
+    height: 21px;
+    width: 417px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: white;
+    margin-top: 5px;
+}
+
+/* mobile design */
+.mobutton {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 70%;
+    border: none;
+    background: transparent;
+}
+
+.mobdivs {
+    height: 42px;
+    width: 328px;
+    border-radius: 8px;
+    background-color: #F6F7F9;
+    margin-top: 10px;
+}
+
+.cars1 {
+    width: 328px;
+    height: 42px;
+    background-color: #F6F7F9;
+    border: none;
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.mobdate {
+    width: 328px;
+    height: 42px;
+    background-color: #F6F7F9;
+    border: none;
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#mainbutsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainButton {
+    height: 38px;
+    width: 160px;
+    border-radius: 4px;
+    padding: 16px, 44px, 16px, 44px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+
+#mainbutsection {
+    display: none;
+}
+
+#mobile {
+    display: none;
+}
+#search{
+    height: 37px;
+    width: 201px;
+    border-radius: 4px;
+    padding: 0px, 20px, 0px, 20px;
+    background-color: #E21E26;
+    color: #FFFFFF;
+
+
+}
+
+/* responsive mobile */
+@media (max-width: 768px) {
+    #f_sec_firstdiv {
+        display: none;
+
+    }
+
+    #f_sec_firstdiv1 {
+        display: none;
+    }
+
+    #first_sec {
+        width: 98%;
+        margin: 3px;
+        height: 120px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+
+    #f_sec_firstdiv2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #apple_div {
+        width: 100%;
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #f_sec_firstdiv2 p {
+        margin-top: 16px;
+        height: auto;
+        width: 251px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* mobile */
+    #mobile {
+        margin-top: 20px;
+    }
+
+    #mobbuttons {
+        width: 100%;
+    }
+
+    .mobutton {
+        margin-left: 10px;
+    }
+
+    .mobdivs {
+        width: 100%;
+    }
+
+    .cars1 {
+        width: 100%;
+
+    }
+
+    #mainbutsection {
+        display: flex;
+        width: 100%;
+        margin-top: 16px;
+    }
+    #search_div{
+        width: 100%;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .mobdate{
+        width: 100%;
+    }
+}
+
+
+/* responsive tablet */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    #f_sec_firstdiv {
+        display: none;
+
+    }
+
+    #f_sec_firstdiv1 {
+        display: none;
+    }
+
+    #first_sec {
+        width: 98%;
+        margin: 3px;
+        height: 120px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+
+    #f_sec_firstdiv2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #apple_div {
+        width: 100%;
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #f_sec_firstdiv2 p {
+        margin-top: 16px;
+        height: auto;
+        width: 251px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* mobile */
+    #mobile {
+        margin-top: 20px;
+    }
+
+    #mobbuttons {
+        width: 100%;
+    }
+
+    .mobutton {
+        margin-left: 10px;
+    }
+
+    .mobdivs {
+        width: 100%;
+    }
+
+    .cars1 {
+        width: 100%;
+
+    }
+
+    #mainbutsection {
+        display: flex;
+        width: 100%;
+        margin-top: 16px;
+    }
+    #search_div{
+        width: 100%;
+        text-align: center;
+        margin-top: 24px;
+    }
+} 

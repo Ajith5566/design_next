@@ -1,0 +1,29 @@
+#second_sec {
+    height: 405px;
+    width: 1312px;
+    margin: 8px 64px 0px 64px;
+}
+@media (max-width: 768px){
+    #second_sec{
+        width: 100%;
+        margin: 16px 0px 0px 0px;
+        height: auto;
+    }
+    #car_image{
+        width: 100%;
+        height: auto;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #second_sec{
+        width: 100%;
+        margin: 16px 0px 0px 0px;
+        height: auto;
+    }
+    #car_image{
+        width: 100%;
+        height: auto;
+        
+    }
+}
