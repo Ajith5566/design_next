@@ -1,0 +1,140 @@
+#sixth_sec {
+
+    margin: 80px 64px 0px 64px;
+}
+
+#six_firstdiv {
+    height: 325px;
+    width: 1312px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+#six_seconddiv {
+    margin: 72px 0px 0px 111px;
+    display: flex;
+}
+
+#sixth_sec h1 {
+    height: 51px;
+    width: 163px;
+    color: white;
+    margin: 56px 580px 0px 569px;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+}
+
+#six_seconddiv img {
+    height: 28.59px;
+    width: 22.24px;
+}
+
+#six_seconddiv h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18.81px;
+}
+@media (max-width: 768px) {
+    #sixth_sec {
+     margin:24.69px 0px 0px 16px;
+     padding: 5px;
+     height: auto;
+    }
+    #six_firstdiv {
+        height: auto;
+        width: 98%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    
+    }
+    #sixth_sec h1 {
+        height: 51px;
+        width: 163px;
+        color: white;
+        margin: 16px 0px 0px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: start;
+    }
+    #six_seconddiv {
+        margin: 25px 0px 0px 16px !important;
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+    }
+    .locationdiv{
+        width: calc(33.33% - 10px) !important;
+        margin-left: 10px !important;
+        border: none !important;
+    }
+    .locationimg{
+        margin-left: 5px !important;
+        width: auto !important;
+    }
+    .locationhh{
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        margin-left: 11px !important;
+    }
+    #six_seconddiv > div:nth-child(n+4) {
+        margin-top: 20px;
+      }
+    
+      
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #sixth_sec {
+        margin:24.69px 0px 0px 16px;
+        padding: 5px;
+        height: auto;
+       }
+       #six_firstdiv {
+           height: auto;
+           width: 98%;
+           background-color: black;
+           display: flex;
+           flex-direction: column;
+           color: white;
+       
+       }
+       #sixth_sec h1 {
+           height: 51px;
+           width: 163px;
+           color: white;
+           margin: 16px 0px 0px 16px;
+           font-weight: 400;
+           font-size: 16px;
+           text-align: start;
+       }
+       #six_seconddiv {
+           margin: 25px 0px 0px 16px !important;
+           display: flex;
+           flex-wrap: wrap;
+           width: 98%;
+       }
+       .locationdiv{
+           width: calc(33.33% - 10px) !important;
+           margin-left: 10px !important;
+           border: none !important;
+       }
+       .locationimg{
+           margin-left: 5px !important;
+           width: auto !important;
+       }
+       .locationhh{
+           font-size: 14px !important;
+           font-weight: 400 !important;
+           margin-left: 11px !important;
+       }
+       #six_seconddiv > div:nth-child(n+4) {
+           margin-top: 20px;
+         }
+       
+         
+}

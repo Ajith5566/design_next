@@ -1,0 +1,157 @@
+#heading3 {
+    height: 35px;
+    width: 499px;
+    margin: 56px 406px 0px 407px;
+    text-align: center;
+}
+
+#heading3 h1 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+
+}
+#seventh_sec{
+    margin: 69px 162px 0px 153px;
+    height: auto;
+}
+#sevth_first_div {
+    height: auto;
+    width: 1140px;
+}
+.sevth_first_div1 {
+    height: auto;
+    width: 1059px;
+    border-bottom: 2px solid #CDD6DA40;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .sevth_first_div1.active {
+    height: 115px;
+    border-bottom: 2px solid #CDD6DA40;
+  }
+  
+
+
+
+/* collapside */
+.collapsible {
+    background-color: white;
+    height: 55px;
+    width: 100%;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* .active,
+.collapsible:hover {
+    background-color: #555;
+} */
+
+.content {
+    font-weight: 400;
+    font-size: 14px;
+    display: none;
+    overflow: hidden;
+    color: #000000;
+    background-color: white;
+    line-height: 24.17px;
+    height: 25px;
+    width: 800px;
+    margin-top: 11px;
+}
+
+.collapsible::after {
+    content: "+";
+    float: right;
+    font-size: 20px;
+}
+
+.collapsible.active::after {
+    content: "×";
+}
+
+/* responsive mobile */
+@media (max-width: 768px){
+    #heading3 {
+        height: 35px;
+        width: 98%;
+        margin: 24px 0px 0px 16px;
+        text-align: start;
+    }
+    
+    #heading3 h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 98%;
+    
+    }
+    #seventh_sec{
+        margin: 19px 0px 0px 10px;
+        height: auto;
+        width: 98%;
+    }
+    #sevth_first_div {
+        height: auto;
+        width: 98%;
+    }
+    .sevth_first_div1 {
+        width: 95%;
+        margin-left: 16px;
+    }
+    .collapsible {
+        font-weight: 500;
+    }
+    .content {
+        width: 95%;
+        height: auto;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #heading3 {
+        height: 35px;
+        width: 98%;
+        margin: 24px 0px 0px 16px;
+        text-align: start;
+    }
+    
+    #heading3 h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 98%;
+    
+    }
+    #seventh_sec{
+        margin: 19px 0px 0px 16px;
+        height: auto;
+        width: 98%;
+    }
+    #sevth_first_div {
+        height: auto;
+        width: 98%;
+    }
+    .sevth_first_div1 {
+        width: 95%;
+        margin-left: 16px;
+    }
+    .collapsible {
+        font-weight: 500;
+    }
+    .content {
+        width: 95%;
+        height: auto;
+    }
+
+}
