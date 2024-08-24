@@ -27,7 +27,7 @@ function Slider() {
                             </div>
                     </div>
                 </div>
-                <div className={styles.third_sec_div} style={{marginLeft:'22px'}}>
+                <div className={styles.third_sec_div} id={styles.third_sec_divid} style={{marginLeft:'22px'}}>
                     <div className={styles.third_sec_img}>
                         <Image className={styles.car1} src={car2} alt="car1"/>
                     </div>

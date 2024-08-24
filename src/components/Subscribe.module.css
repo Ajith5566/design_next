@@ -1,0 +1,421 @@
+#fourth_sec {
+    height: 506px;
+    width: 1234px;
+    margin: 40px 64px 0px 142px;
+    display: flex;
+}
+#fourth_first_div {
+    height: 506px;
+    width: 590px;
+}
+#fourth_first_div h1 {
+    height: 100px;
+    width: 550px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    margin: 38px 40px 0px 0px;
+}
+
+.f_first_div_input {
+    height: 45px;
+    width: 223px;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    border: none;
+    padding-left: 10px;
+}
+
+.f_first_div_input::placeholder {
+    text-indent: 20.07px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#fourth_first_div p {
+    height: 42px;
+    width: 478px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 16px;
+    margin-right: 111px;
+}
+
+#fourth_first_div button {
+    height: 57.08px;
+    width: 464px;
+    border-radius: 5px;
+    background-color: #E21E26;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 40px;
+    border: none;
+}
+#ptagsdiv{
+    margin-top: 41px;
+}
+/* seond div */
+#fourth_second_div {
+    height: 506px;
+    width: 644px;
+    background-color: #E21E26;
+    display: flex;
+}
+
+#f_second_div {
+    height: 417px;
+    width: 231px;
+    margin: 48px 0px 41px 71px;
+}
+
+#f_second_div2 p {
+    height: 43px;
+    width: 233px;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 123.42px 85px 0px 24px;
+    color: white;
+    line-height: 21.5px;
+}
+
+#f_second_div2 input {
+    height: 45px;
+    width: 263px;
+    border-radius: 5px;
+    margin: 12.5px 60px 0px 19px;
+    background-color: #F8F8F8;
+    border: none;
+    padding-left: 10px;
+}
+
+#f_second_div2 input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 50%;
+    text-indent: 22px;
+}
+
+#f_second_div2 button {
+    width: 144px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: black;
+    margin: 23.42px 179px 0px 19px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+}
+
+#f_second_subdiv1 {
+    height: 21px;
+    width: 63px;
+    margin: 45px 260px 0px 19px;
+}
+
+#f_second_subdiv1 h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+#f_second_subdiv2 {
+    margin: 16.58px 108px 0px 20px;
+    gap: 8px;
+}
+#mobilp{
+    display: none;
+}
+#mobilefinal{
+    display: none;
+}
+
+
+/* responsive mobile */
+@media (max-width: 768px){
+    #fourth_sec{
+        width: 98%;
+        height: auto;
+        margin: 0px;
+        flex-direction: column;
+    }
+    #fourth_first_div{
+        width: 98%;
+        height: auto;
+    }
+    #fourth_first_div h1 {
+        height: 48px;
+        width: 98%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px 0px 0px 16px;
+    }
+    #ptagsdiv{
+        width: 98%;
+    }
+    .f_first_div_input{
+        width: 95%;
+        margin: 16px 0px 0px 16px !important;
+
+    }
+    #ptagsdiv{
+        margin: 0px;
+    }
+    #fourth_first_div p {
+        height: 42px;
+        width: 98%;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 16px 0px 0px 16px;
+        margin-right: 111px;
+    }
+    #fourth_first_div button {
+        height: 38px;
+        width: 128px;
+        border-radius: 4px; 
+        background-color: #E21E26;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+        margin: 16px 0px 0px 16px;
+        border: none;
+    }
+    /* second */
+    #fourth_second_div{
+        width: 100%;
+        margin: 17px 0px 0px 0px;
+        padding: 4px;
+        height: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #f_second_div{
+        width: 41.46%;
+        margin: 0px;
+        height: 260px;
+    }
+    #phone{
+        width: auto;
+        height: 245px;
+    }
+    #f_second_div2{
+        width: 58.54%;
+        margin: 0px 0px 0px 0px !important;
+        height: 260px;
+    }
+    #f_second_div2 p {
+       display: none;
+       margin: 0px;
+       width: 98%;
+       height: auto;
+       margin: 40px 0px 0px 15px;
+    }
+    #f_second_div2 button{
+        display: none;
+    }
+    #f_second_div2 input{
+        display: none;
+    }
+    #mobilep{
+        display: block !important;
+        margin: 10  px 0px 0px 15px;
+        width: 98%;
+    }
+    #f_second_subdiv1{
+        width: 90%;
+        margin: 19px 0px 0px 16px !important;
+    }
+    #f_second_subdiv2{
+            width: 98%;
+            height: auto;
+            margin: 16px 0px 0px 16px;
+            display: flex;
+            flex-direction: column;
+    }
+    #mobilefinal{
+        display: block;
+        width: 98%;
+        height: auto;
+        background-color: #E21E26;
+        border-radius: 0px 0px 10px 10px;
+        padding-bottom: 10px;
+    }
+    #mobilebutton{
+        width: 144px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: black;
+    margin: 16px 0px 0px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    }
+    #mobileinput {
+        height: 45px;
+        width: 90%;
+        border-radius: 5px;
+        margin: 10px 0px 0px 16px;
+        background-color: #F8F8F8;
+        border: none;
+        padding-left: 10px;
+    }
+    
+    #mobileinput::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        opacity: 50%;
+        text-indent: 22px;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #fourth_sec{
+        width: 98%;
+        height: auto;
+        margin: 0px;
+        flex-direction: column;
+    }
+    #fourth_first_div{
+        width: 98%;
+        height: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #fourth_first_div h1 {
+        height: 48px;
+        width: 98%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px 0px 0px 16px;
+    }
+    #ptagsdiv{
+        width: 98%;
+    }
+    .f_first_div_input{
+        width: 95%;
+        margin: 16px 0px 0px 16px !important;
+
+    }
+    #ptagsdiv{
+        margin: 0px;
+    }
+    #fourth_first_div p {
+        height: 42px;
+        width: 98%;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 16px 0px 0px 16px;
+        margin-right: 111px;
+    }
+    #fourth_first_div button {
+        height: 38px;
+        width: 128px;
+        border-radius: 4px; 
+        background-color: #E21E26;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+        margin: 16px 0px 0px 16px;
+        border: none;
+    }
+    /* second */
+    #fourth_second_div{
+        width: 100%;
+        margin: 17px 0px 0px 0px;
+        padding: 4px;
+        height: auto;
+    }
+    #f_second_div{
+        width: 41.46%;
+        margin: 0px;
+        height: 260px;
+    }
+    #phone{
+        width: auto;
+        height: 245px;
+    }
+    #f_second_div2{
+        width: 58.54%;
+        margin: 0px 0px 0px 0px !important;
+        height: 260px;
+    }
+    #f_second_div2 p {
+       display: none;
+       margin: 0px;
+       width: 98%;
+       height: auto;
+       margin: 40px 0px 0px 15px;
+    }
+    #f_second_div2 button{
+        display: none;
+    }
+    #f_second_div2 input{
+        display: none;
+    }
+    #mobilep{
+        display: block !important;
+        margin: 10  px 0px 0px 15px;
+        width: 98%;
+    }
+    #f_second_subdiv1{
+        width: 90%;
+        margin: 19px 0px 0px 16px !important;
+    }
+    #f_second_subdiv2{
+            width: 98%;
+            height: auto;
+            margin: 16px 0px 0px 16px;
+            display: flex;
+            flex-direction: column;
+    }
+    #mobilefinal{
+        display: block;
+        width: 98%;
+        height: auto;
+        background-color: #E21E26;
+    }
+    #mobilebutton{
+        width: 144px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: black;
+    margin: 16px 0px 0px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    }
+    #mobileinput {
+        height: 45px;
+        width: 90%;
+        border-radius: 5px;
+        margin: 10px 0px 0px 16px;
+        background-color: #F8F8F8;
+        border: none;
+        padding-left: 10px;
+    }
+    
+    #mobileinput::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        opacity: 50%;
+        text-indent: 22px;
+    }
+}

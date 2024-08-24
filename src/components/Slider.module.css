@@ -112,16 +112,19 @@
     #heading h1{
         font-size: 16px;
         width: 145px;
+        margin-left: 16px;
        
     }
     #third_sec{
         height: auto;
         margin: 0px 0px 0px 16px;
+        width: 98%;
     }
      .third_sec_div{
         display: flex;
         flex-direction: column;
         height: auto;
+        width: 98%;
     }
     
     .third_sec_img{
@@ -131,11 +134,11 @@
         justify-content: center;
     }
     .car1{
-        width: auto;
+        width: 100%;
         height: auto;
     }
     .third_sec_cont{
-        width: 100%;
+        width: 98%;
     }
     .third_sec_cont h1 {
         height: 42px;
@@ -147,7 +150,7 @@
     }
     .third_sec_cont p {
         height: auto;
-        width: 298px;
+        width:100%;
         font-weight: 400;
         font-size: 12px;
         line-height: 18.5px;
@@ -161,6 +164,7 @@
     }
     .button_div {
         display: block;
+        width: 100%;
     }
     .button_div h1 {
         height: 30px;
@@ -189,6 +193,9 @@
         letter-spacing: -0.02rem;
         line-height: 21px;
     
+    }
+    #third_sec_divid{
+        margin-left: 8px !important;
     }
 }
 /* tablet */
